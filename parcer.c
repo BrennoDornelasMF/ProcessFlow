@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "parcer.h"
+
 #define MAX_LINE 200
 
 
@@ -14,7 +16,7 @@ char** parcer_line(void){
 
 
     if(fgets(linha, sizeof linha, stdin) == NULL){
-        return NULL; // EOF Ctrl+D
+        exit; // EOF Ctrl+D
     }
    
     len = strlen(linha);
@@ -59,7 +61,18 @@ char** parcer_line(void){
         cont++;
 
         tok = strtok(NULL, " \t");
-        return tokens;
     }
+    tokens[cont] = NULL;
+    return tokens;
 }
+
+void free_tokens(char** tokens){
+    if (tokens == NULL) return;
+
+    for (int i = 0; tokens[i] != NULL; i++){
+        free(tokens[i]);
+    }
+    free(tokens);
+}
+
 

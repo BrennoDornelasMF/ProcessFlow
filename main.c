@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "parcer.h"
+
 
 int main(int argc, char *argv[]){
 
@@ -9,15 +11,18 @@ int main(int argc, char *argv[]){
 
     }else if(argc == 1){  // modo interativo
 
-        char task[100];
-
         printf("ProcessFlow > ");
-        // função que recebe a string e retorna as tasks separadas
+        char** tokens = parcer_line();
 
+        if(tokens == NULL){
+            printf("Error de leitura");
+        }
 
-        
-        
+        for(int i = 0; tokens[i] != NULL; i++){
+            printf("token[%d] = \"%s\"\n", i, tokens[i]);      
+        }
 
+        free_tokens(tokens);
 
     }
 

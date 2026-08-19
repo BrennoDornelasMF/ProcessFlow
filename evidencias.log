@@ -42,4 +42,90 @@ oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso
 [43C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
 
 
-[?25h[?7h[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32
+[?25h[?7h[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ gi [Kr [K[Kt aff[K[Kdd ,[K.
+[?2004l[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git commin[Kt -m "start r[Kproject [K"
+[?2004l[main 43eecae] start project
+ 5 files changed, 115 insertions(+)
+ create mode 100644 evidencias.log
+ create mode 100644 main.c
+ create mode 100644 makefile
+ create mode 100644 parcer.c
+ create mode 100644 parcer.h
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git push
+[?2004lEnumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 1.93 KiB | 986.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:BrennoDornelasMF/ProcessFlow.git
+   61971b4..43eecae  main -> main
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ gt[Kit add .4[K
+[?2004l[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git commit -m "parcer_line [K" 
+[?2004l[main 634e9f3] parcer_line
+ 1 file changed, 34 insertions(+), 1 deletion(-)
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+[01m[Kmain.c:4:10:[m[K [01;31m[Kfatal error: [m[Kparcer.h: Arquivo ou diretório inexistente
+    4 | #include [01;31m[K<parcer.h>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+make: *** [makefile:5: main.o] Erro 1
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+[01m[Kmain.c:4:10:[m[K [01;31m[Kfatal error: [m[Kparcer.c: Arquivo ou diretório inexistente
+    4 | #include [01;31m[K<parcer.c>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+make: *** [makefile:5: main.o] Erro 1
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+gcc -c parcer.c 
+gcc main.o parcer.o -o processflow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ makegit commit -m "parcer_line" add .[Kcommit -m "parcer_line" make[K[K[K[K[K./ [Kprocessflow 
+[?2004lProcessFlow > teste tesd teasd dasd 
+token[0] = "es"
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ ./processflow 
+[?2004lProcessFlow > 
+Falha de segmentação (imagem do núcleo gravada)
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ ./processflow make[K clean
+[?2004lrm -f *.o processflow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+gcc -c parcer.c 
+gcc main.o parcer.o -o processflow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make clean./processflow 
+[?2004lProcessFlow > token[0] = ""
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ ./processflow 
+[?2004lProcessFlow > 
+Falha de segmentação (imagem do núcleo gravada)
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ ./processflow [K./processflow 
+[?2004lProcessFlow > ted rwe
+token[0] = "ed"
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ ./processflow 
+[?2004lProcessFlow > oi ee ^[[D^[[D          aa ss
+token[0] = "oi"
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ ./processflow 
+[?2004lProcessFlow > dddd  123 eawe asd
+token[0] = "dddd123"
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make clean
+[?2004lrm -f *.o processflow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+gcc -c parcer.c 
+gcc main.o parcer.o -o processflow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ .\[K\pr[K[K[K/processflow 
+[?2004lProcessFlow > rwe rwer wer 
+token[0] = "rwe"
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ meka[Ke[K[K[Kake clean
+[?2004lrm -f *.o processflow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make
+[?2004lgcc -c main.c
+gcc -c parcer.c 
+gcc main.o parcer.o -o processflow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ ./processflow 
+[?2004lProcessFlow > twe rwer wer 
+token[0] = "we"
+token[1] = "rwer"
+token[2] = "wer"
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/C
