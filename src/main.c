@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "parcer.h"
+#include "../include/parcer.h"
 
 
 int main(int argc, char *argv[]){
@@ -11,7 +11,7 @@ int main(int argc, char *argv[]){
 
     }else if(argc == 1){  // modo interativo
 
-        printf("ProcessFlow > ");
+        printf("ProcessFlow>");
         char** tokens = parcer_line();
 
         if(tokens == NULL){

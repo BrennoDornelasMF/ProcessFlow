@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "parcer.h"
+#include "../include/parcer.h"
 
 #define MAX_LINE 200
 
@@ -29,7 +29,7 @@ char** parcer_line(void){
         return NULL;
     }
 
-    char* tok = strtok(linha, " /t");
+    char* tok = strtok(linha, " \t");
     while (tok != NULL){
 
         if(cont >= capacidade -1) {
