@@ -27,6 +27,39 @@ char** parcer_line(void){
         return NULL;
     }
 
+    char* tok = strtok(linha, " /t");
+    while (tok != NULL){
 
+        if(cont >= capacidade -1) {
+            capacidade *=2;
+            char** tmp = realloc(tokens, capacidade * sizeof(char*));
 
+            if(tmp == NULL){
+                for (int i = 0; i < cont; i++) {
+                    free(tokens[i]);
+                }
+                free(tokens);
+                return NULL;
+            }
+            tokens = tmp;
+        }
+
+        size_t tok_len = strlen(tok);
+        char* copy = malloc(tok_len + 1);
+        if(copy == NULL){
+            for(int i = 0; i < cont; i++){
+                free(tokens[i]);
+            }
+            free(tokens);
+            return NULL;
+        }
+
+        strcpy(copy, tok);
+        tokens[cont] = copy;
+        cont++;
+
+        tok = strtok(NULL, " \t");
+        return tokens;
+    }
 }
+
