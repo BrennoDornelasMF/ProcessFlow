@@ -16,8 +16,9 @@ char** parcer_line(void){
 
 
     if(fgets(linha, sizeof linha, stdin) == NULL){
-        exit; // EOF Ctrl+D
+        return NULL; // EOF Ctrl+D
     }
+
    
     len = strlen(linha);
     if(len > 0 && linha[len -1] == '\n') {

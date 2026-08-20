@@ -2,6 +2,9 @@
 #include <string.h>
 
 #include "../include/parcer.h"
+#include "../include/task.h"
+
+
 
 
 int main(int argc, char *argv[]){
@@ -10,19 +13,26 @@ int main(int argc, char *argv[]){
     if(argc > 1){
 
     }else if(argc == 1){  // modo interativo
+        while(1){
 
-        printf("ProcessFlow>");
-        char** tokens = parcer_line();
+            printf("ProcessFlow> ");
+            char** tokens = parcer_line();
 
-        if(tokens == NULL){
-            printf("Error de leitura");
-        }
+            if(tokens == NULL){
+                printf("Error de leitura");
+            }
+            
+            if(tokens[0] == "task") {
+                
+            }
 
-        for(int i = 0; tokens[i] != NULL; i++){
-            printf("token[%d] = \"%s\"\n", i, tokens[i]);      
-        }
 
-        free_tokens(tokens);
+            for(int i = 0; tokens[i] != NULL; i++){
+                printf("token[%d] = \"%s\"\n", i, tokens[i]);      
+            }
+
+            free_tokens(tokens);
+        }   
 
     }
 
