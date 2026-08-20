@@ -20,10 +20,11 @@ int main(int argc, char *argv[]){
 
             if(tokens == NULL){
                 printf("Error de leitura");
+                continue;
             }
-            
-            if(tokens[0] == "task") {
-                
+
+            if(strcmp(tokens[0], "task") == 0) {
+                cadastrarTask(tokens);
             }
 
 
@@ -31,7 +32,18 @@ int main(int argc, char *argv[]){
                 printf("token[%d] = \"%s\"\n", i, tokens[i]);      
             }
 
+            if(strcmp(tokens[0], "exit") == 0){
+                free_tokens(tokens);
+                break;
+            }
+
+
+
+
+
+
             free_tokens(tokens);
+
         }   
 
     }
