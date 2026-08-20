@@ -57,6 +57,15 @@ void cadastrarTask(char** tokens){
     tasks[qtd_cadastradas].nun_args = qtd_args;
     
     qtd_cadastradas++;
-    printf("Task adicionada com sucesso\n");
+    //printf("Task adicionada com sucesso\n");
 
+}
+
+task* buscarTask(char* nome){
+    for (int i = 0; i < qtd_cadastradas; i++){
+        if (strcmp(tasks[i].nome, nome) == 0){
+            return &tasks[i];
+        }
+    }
+    return NULL;
 }
