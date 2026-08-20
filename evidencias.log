@@ -491,3 +491,65 @@ token[0] = "taskd"
 token[1] = "asd"
 token[2] = "asd"
 ProcessFlow> ^C
+Script iniciado em 2026-08-20 18:37:44-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="3"]
+[?25l[?7l[0m[31m[1m            .-/+oossssoo+/-.
+        `:+ssssssssssssssssss+:`
+      -+ssssssssssssssssssyyssss+-
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
+   /sssssssssss[37m[0m[1mhdmmNNmmyNMMMMh[0m[31m[1mssssss/
+  +sssssssss[37m[0m[1mhm[0m[31m[1myd[37m[0m[1mMMMMMMMNddddy[0m[31m[1mssssssss+
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhmNMMMNh[0m[31m[1mssssssss/
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1mssssssssssssss[37m[0m[1mhmmmh[0m[31m[1mssssssso
+oss[37m[0m[1myNMMMNyMMh[0m[31m[1msssssssssssssshmmmh[0m[31m[1mssssssso
++ssss[37m[0m[1mhhhyNMMNy[0m[31m[1mssssssssssss[37m[0m[1myNMMMy[0m[31m[1msssssss+
+.ssssssss[37m[0m[1mdMMMNh[0m[31m[1mssssssssss[37m[0m[1mhNMMMd[0m[31m[1mssssssss.
+ /ssssssss[37m[0m[1mhNMMM[0m[31m[1myh[37m[0m[1mhyyyyhdNMMMNh[0m[31m[1mssssssss/
+  +sssssssss[37m[0m[1mdm[0m[31m[1myd[37m[0m[1mMMMMMMMMddddy[0m[31m[1mssssssss+
+   /sssssssssss[37m[0m[1mhdmNNNNmyNMMMMh[0m[31m[1mssssss/
+    .ossssssssssssssssss[37m[0m[1mdMMMNy[0m[31m[1msssso.
+      -+sssssssssssssssss[37m[0m[1myyy[0m[31m[1mssss+-
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.[0m
+[20A[9999999D[43C[0m[1m[31m[1mbdmf[0m@[31m[1mbdmf-Vostro-15-3510[0m 
+[43C[0m------------------------[0m 
+[43C[0m[31m[1mOS[0m[0m:[0m Ubuntu 24.04.4 LTS x86_64[0m 
+[43C[0m[31m[1mHost[0m[0m:[0m Vostro 15 3510[0m 
+[43C[0m[31m[1mKernel[0m[0m:[0m 6.14.0-37-generic[0m 
+[43C[0m[31m[1mUptime[0m[0m:[0m 15 mins[0m 
+[43C[0m[31m[1mPackages[0m[0m:[0m 2843 (dpkg), 9 (flatpak), 42 (snap)[0m 
+[43C[0m[31m[1mShell[0m[0m:[0m bash 5.2.21[0m 
+[43C[0m[31m[1mResolution[0m[0m:[0m 1920x1080[0m 
+[43C[0m[31m[1mDE[0m[0m:[0m GNOME 46.0[0m 
+[43C[0m[31m[1mWM[0m[0m:[0m Mutter[0m 
+[43C[0m[31m[1mWM Theme[0m[0m:[0m Yaru-purple-dark[0m 
+[43C[0m[31m[1mTheme[0m[0m:[0m Yaru-purple-dark [GTK2/3][0m 
+[43C[0m[31m[1mIcons[0m[0m:[0m Yaru-purple-dark [GTK2/3][0m 
+[43C[0m[31m[1mTerminal[0m[0m:[0m vscode[0m 
+[43C[0m[31m[1mCPU[0m[0m:[0m Intel i5-1035G1 (8) @ 3.600GHz[0m 
+[43C[0m[31m[1mGPU[0m[0m:[0m Intel Iris Plus Graphics G1[0m 
+[43C[0m[31m[1mMemory[0m[0m:[0m 5495MiB / 15649MiB[0m 
+
+[43C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
+[43C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
+
+
+[?25h[?7h[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ virtualboxsudo modprobe -r kvm_intel kvmbtop[Ksudo modprobe -r kvm_intel kvm[20Pvirtualbox[K./p
+[?2004lbash: ./p: Arquivo ou diretório inexistente
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ ./processflow 
+[?2004lProcessFlow> wer
+token[0] = "wer"
+ProcessFlow> we  exit
+token[0] = "exit"
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ date
+[?2004lqui 20 ago 2026 18:38:47 -03
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ whoiam
+[?2004lwhoiam: comando não encontrado
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ whoiam[K[Kma
+[?2004lwhoima: comando não encontrado
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ whoima[C[K[K[Kami
+[?2004lbdmf
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ pwd
+[?2004l/home/bdmf/Code/Infra_Soft/ProcessFlow/ProcessFlow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Sof

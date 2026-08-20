@@ -27,15 +27,17 @@ int main(int argc, char *argv[]){
                 cadastrarTask(tokens);
             }
 
-
+            /** 
             for(int i = 0; tokens[i] != NULL; i++){
                 printf("token[%d] = \"%s\"\n", i, tokens[i]);      
             }
-
+            */
+           
             if(strcmp(tokens[0], "exit") == 0){
                 free_tokens(tokens);
                 break;
             }
+           
 
 
 

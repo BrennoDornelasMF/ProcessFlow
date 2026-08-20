@@ -8,14 +8,6 @@
 #define MAX_ARGS 10
 #define MAX_LEN_ARG 50
 
-typedef struct task{
-
-    char nome[100];
-    char path[MAX_LEN_TASK];
-    char args[MAX_ARGS][MAX_LEN_ARG];
-    int  nun_args;
-
-}task;
 
 task tasks[MAX_TASKS];
 int qtd_cadastradas = 0;
@@ -68,8 +60,3 @@ void cadastrarTask(char** tokens){
     printf("Task adicionada com sucesso\n");
 
 }
-
-
-
-
-
