@@ -581,4 +581,44 @@ To github.com:BrennoDornelasMF/ProcessFlow.git
 [?2004l[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git commit -m  "add bus[K[K[Ktask.c/ bi[KuscarTask()"
 [?2004l[main bba77b8] add task.c/ buscarTask()
  1 file changed, 10 insertions(+), 1 deletion(-)
-[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/Proc
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git add . 
+[?2004l[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ gi [Kt commit -m[K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git commit -m "add run to main.c"
+[?2004l[main 1ffac3e] add run to main.c
+ 2 files changed, 22 insertions(+), 10 deletions(-)
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ [K]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make
+[?2004lgcc -c -Iinclude src/main.c -o obj/main.o
+gcc -c -Iinclude src/task.c -o obj/task.o
+gcc -c -Iinclude src/run.c -0 obj/run.o
+[01m[Kgcc:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option ‘[01m[K-0[m[K’
+make: *** [makefile:14: obj/run.o] Erro 1
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make
+[?2004lgcc -c -Iinclude src/run.c -o obj/run.o
+gcc obj/main.o obj/parcer.o obj/task.o obj/run.o -o processflow
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ make[K./[K[K./P[Kprocessflow 
+[?2004lProcessFlow> task listar /bin/ls -l
+ProcessFlow> run listar
+total 96
+-rw-rw-r-- 1 bdmf bdmf 46386 ago 20 19:45 evidencias.log
+drwxrwxr-x 2 bdmf bdmf  4096 ago 20 18:34 include
+-rw-rw-r-- 1 bdmf bdmf   511 ago 20 19:54 makefile
+drwxrwxr-x 2 bdmf bdmf  4096 ago 20 19:54 obj
+-rwxrwxr-x 1 bdmf bdmf 16992 ago 20 19:54 processflow
+-rw-rw-r-- 1 bdmf bdmf    14 ago 18 14:04 README.md
+drwxrwxr-x 2 bdmf bdmf  4096 ago 20 18:34 src
+-rw-rw-r-- 1 bdmf bdmf  3192 ago 19 23:02 task.o
+ProcessFlow> exit
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git add .[Kmaj[Kkefile 
+[?2004l[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git commit .[K[K -m "edit makefin[Kle"
+[?2004l[main f01135e] edit makefile
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+[?2004h]0;bdmf@bdmf-Vostro-15-3510: ~/Code/Infra_Soft/ProcessFlow/ProcessFlow[01;32mbdmf@bdmf-Vostro-15-3510[00m:[01;34m~/Code/Infra_Soft/ProcessFlow/ProcessFlow[00m$ git sa[Kts[Katis[K[Kus
+[?2004lNo ramo main
+Seu ramo está à frente de 'origin/main' por 4 submissões.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (utilize "git add <arquivo>..." para atualizar o que será submetido)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   processflow[m
+
+nenhuma modificação adicionada à submissão (utilize "git a
