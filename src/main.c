@@ -32,6 +32,22 @@ int main(int argc, char *argv[]){
             if(strcmp(tokens[0], "run") == 0) {
                 run(tokens);
             }
+
+            // input
+            if(strcmp(tokens[0], "input") == 0) {
+                input_process(tokens);
+            }
+
+            // output
+            if(strcmp(tokens[0], "output") == 0) {
+                output_process(tokens);
+            }
+
+            //append
+            if(strcmp(tokens[0], "append") == 0) {
+                append_process(tokens);
+            }
+
             /** 
             for(int i = 0; tokens[i] != NULL; i++){
                 printf("token[%d] = \"%s\"\n", i, tokens[i]);      

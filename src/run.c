@@ -2,6 +2,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <fcntl.h>
 
 #include "../include/run.h"
 
@@ -32,6 +33,37 @@ int execultarTaskSincrono(task *t){
     }
 
     if (pid == 0){
+
+        if (strlen(t->input_file) > 0){
+            int fd_in = open(t->input_file, O_RDONLY);
+
+            if(fd_in < 0){
+                printf("Erro: não foi possivel abrir o arquivo de entrada\n");
+                _exit(1);
+            }
+            dup2(fd_in, 0);
+            close(fd_in);
+        }
+
+        if (strlen(t->output_file) > 0){
+            
+            int fd_out;
+
+            if (t->append_mode == 1){
+                fd_out = open(t->output_file, O_WRONLY | O_CREAT | O_APPEND, 0644);
+            }else{
+                fd_out = open(t->output_file, O_WRONLY | O_CREAT | O_TRUNC, 0644);
+            }
+
+            if (fd_out < 0){
+                printf("Erro: nao foi possivel abrir arquivo de saida\n");
+                _exit(1);
+            }
+
+            dup2(fd_out, 1);
+            close(fd_out);
+        }
+
         execv(t->path, exec_args);
         printf("Erro: não foi possivel executar o programa '%s'\n", t->path);
         _exit(1);
@@ -101,7 +133,7 @@ void run(char** tokens){
 }
 
 
-void input(char** tokens){
+void input_process(char** tokens){
 
     if(tokens[1] == NULL || tokens[2] == NULL){
         printf("Erro: input precisa de tarefa e arquivo");
@@ -118,7 +150,7 @@ void input(char** tokens){
     strcpy(t->input_file, tokens[2]);
 }
 
-void output(char** tokens){
+void output_process(char** tokens){
 
     if(tokens[1] == NULL || tokens[2] == NULL){
         printf("Erro: output precisa de tarefa e arquivo");
@@ -136,7 +168,7 @@ void output(char** tokens){
     t->append_mode = 0;
 }
 
-void append(char** tokens){
+void append_process(char** tokens){
 
     if(tokens[1] == NULL || tokens[2] == NULL){
         printf("Erro: output precisa de tarefa e arquivo");
