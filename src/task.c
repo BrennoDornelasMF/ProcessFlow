@@ -3,11 +3,6 @@
 
 #include "../include/task.h"
 
-#define MAX_TASKS 100
-#define MAX_LEN_TASK 75
-#define MAX_ARGS 10
-#define MAX_LEN_ARG 50
-
 
 task tasks[MAX_TASKS];
 int qtd_cadastradas = 0;
@@ -55,6 +50,9 @@ void cadastrarTask(char** tokens){
         qtd_args++;        
     }
     tasks[qtd_cadastradas].nun_args = qtd_args;
+    strcpy(tasks[qtd_cadastradas].input_file, "");
+    strcpy(tasks[qtd_cadastradas].output_file, "");
+    tasks[qtd_cadastradas].append_mode = 0;
     
     qtd_cadastradas++;
     //printf("Task adicionada com sucesso\n");

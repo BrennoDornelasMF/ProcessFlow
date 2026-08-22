@@ -13,6 +13,7 @@ int execultarTaskSincrono(task *t){
         return 0;
     }
 
+    // construindo a lista com o path + args com NULL ao final para usar o exec()
     char *exec_args[MAX_ARGS + 2];
     exec_args[0] = t->path;
 
@@ -48,6 +49,7 @@ void run(char** tokens){
         return;
     }
 
+    // sequencial
     if(strcmp(tokens[1], "sequential") == 0){
         for (int i = 2; tokens[i] != NULL; i++){
             task *t = buscarTask(tokens[i]);
@@ -56,6 +58,7 @@ void run(char** tokens){
         return;
     }
 
+    // Paralelo
     if (strcmp(tokens[1], "parallel") == 0){
         pid_t pids[MAX_ARGS];
         int total = 0;
@@ -95,4 +98,58 @@ void run(char** tokens){
     }
     task *t = buscarTask(tokens[1]);
     execultarTaskSincrono(t);
+}
+
+
+void input(char** tokens){
+
+    if(tokens[1] == NULL || tokens[2] == NULL){
+        printf("Erro: input precisa de tarefa e arquivo");
+        return;
+    }
+
+    task *t = buscarTask(tokens[1]);
+
+    if (t == NULL){
+        printf("Erro tarefa não enotrada");
+        return;
+    }
+    
+    strcpy(t->input_file, tokens[2]);
+}
+
+void output(char** tokens){
+
+    if(tokens[1] == NULL || tokens[2] == NULL){
+        printf("Erro: output precisa de tarefa e arquivo");
+        return;
+    } 
+
+    task *t = buscarTask(tokens[1]);
+
+    if(t == NULL){
+        printf("Erro: Tarefa não encontrada");
+        return;
+    }
+
+    strcpy(t->output_file, tokens[2]);
+    t->append_mode = 0;
+}
+
+void append(char** tokens){
+
+    if(tokens[1] == NULL || tokens[2] == NULL){
+        printf("Erro: output precisa de tarefa e arquivo");
+        return;
+    } 
+
+    task *t = buscarTask(tokens[1]);
+
+    if(t == NULL){
+        printf("Erro: Tarefa não encontrada");
+        return;
+    }
+
+    strcpy(t->output_file, tokens[2]);
+    t->append_mode = 1;
 }

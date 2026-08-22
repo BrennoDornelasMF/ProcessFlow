@@ -11,6 +11,10 @@ typedef struct task{
     char path[MAX_LEN_TASK];
     char args[MAX_ARGS][MAX_LEN_ARG];
     int  nun_args;
+
+    char input_file[MAX_LEN_ARG];
+    char output_file[MAX_LEN_ARG];
+    int append_mode;
 } task;
 
 extern task tasks[MAX_TASKS];
