@@ -50,7 +50,7 @@ int execultarTaskSincrono(task *t){
             int fd_out;
 
             if (t->append_mode == 1){
-                fd_out = open(t->output_file, O_WRONLY | O_CREAT | O_APPEND, 0644);
+                fd_out = open(t->output_file, O_WRONLY | O_CREAT | O_APPEND , 0644);
             }else{
                 fd_out = open(t->output_file, O_WRONLY | O_CREAT | O_TRUNC, 0644);
             }
@@ -184,4 +184,84 @@ void append_process(char** tokens){
 
     strcpy(t->output_file, tokens[2]);
     t->append_mode = 1;
+}
+
+void pipe(char **tokens){
+
+    int qtd_tarefas = 0;
+
+    while (tokens[ 2 + qtd_tarefas] != NULL)
+    {
+        qtd_tarefas++;
+    }
+
+    if(qtd_tarefas < 2){
+        printf("Erro: pipe preceisa de pelo menos 2 tarefas\n");
+    }
+    
+    int pipes[MAX_ARGS][2];
+
+    for (int i = 0; i <qtd_tarefas - 1;i++){
+        if (pipes[i] < 0)
+        {
+            printf("Erro ao criar pipe\n");
+            return;
+        }
+        
+    }
+
+    pid_t pids[MAX_ARGS];
+
+    for(int i = 0; i < qtd_tarefas; i++){
+        task *t = buscarTask(tokens[2 + i]);
+
+        if(t == NULL){
+            printf("erro tarefa não encotrada\n");
+            continue;
+        }
+
+        char *exec_args[MAX_ARGS + 2];
+        exec_args[0] = t->path;
+
+        for(int j = 0; j < t ->nun_args; j++){
+            exec_args[j+1] = t->args[j];
+        }
+        exec_args[t->nun_args + 1] = NULL;
+
+        pid_t pid = fork();
+
+        if (pid == 0){
+            
+            if(i > 0){
+                dup2(pipes[i - 1][0], 0);
+            }
+
+            if(i < qtd_tarefas - 1){
+                dup2(pipes[i][1], 1);
+            }
+
+            for (int j = 0; j< qtd_tarefas - 1; j++){
+                close(pipes[j][0]);
+                close(pipes[j][1]);
+            }
+
+            execv(t->path, exec_args);
+            printf("erro: não foi possivel executar '%s'\n", t->path);
+            _exit(1);
+        }
+
+        pids[i] = pid;
+        
+    }
+
+    for(int i = 0; i < qtd_tarefas - 1; i++){
+        close(pipes[i][0]);
+        close(pipes[i][1]);
+    }
+
+    for(int i = 0; i <qtd_tarefas; i++){
+        int status;
+        waitpid(pids[i], &status, 0);
+    }
+
 }
