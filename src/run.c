@@ -81,6 +81,12 @@ void run(char** tokens){
         return;
     }
 
+    //pipe
+    if(strcmp(tokens[1], "pipe") == 0){
+        pipe_process(tokens);
+        return;
+    }
+
     // sequencial
     if(strcmp(tokens[1], "sequential") == 0){
         for (int i = 2; tokens[i] != NULL; i++){
@@ -186,7 +192,7 @@ void append_process(char** tokens){
     t->append_mode = 1;
 }
 
-void pipe(char **tokens){
+void pipe_process(char **tokens){
 
     int qtd_tarefas = 0;
 
@@ -197,12 +203,13 @@ void pipe(char **tokens){
 
     if(qtd_tarefas < 2){
         printf("Erro: pipe preceisa de pelo menos 2 tarefas\n");
+        return;
     }
     
     int pipes[MAX_ARGS][2];
 
     for (int i = 0; i <qtd_tarefas - 1;i++){
-        if (pipes[i] < 0)
+        if (pipe(pipes[i]) < 0)
         {
             printf("Erro ao criar pipe\n");
             return;

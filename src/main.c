@@ -31,6 +31,7 @@ int main(int argc, char *argv[]){
             //execulta uma task
             if(strcmp(tokens[0], "run") == 0) {
                 run(tokens);
+
             }
 
             // input
@@ -47,6 +48,8 @@ int main(int argc, char *argv[]){
             if(strcmp(tokens[0], "append") == 0) {
                 append_process(tokens);
             }
+
+
 
             /** 
             for(int i = 0; tokens[i] != NULL; i++){
