@@ -4,6 +4,7 @@
 #include "../include/parcer.h"
 #include "../include/task.h"
 #include "../include/run.h"
+#include "../include/workdir.h"
 
 
 
@@ -47,6 +48,11 @@ int main(int argc, char *argv[]){
             //append
             if(strcmp(tokens[0], "append") == 0) {
                 append_process(tokens);
+            }
+
+            //workdir
+            if(strcmp(tokens[0], "workdir") == 0){
+                workdir_process(tokens);
             }
 
 
